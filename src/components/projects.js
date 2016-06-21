@@ -4,7 +4,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <header className="projects-header"><h3>Here are some projects I''ve had fun with!</h3></header>
+        <header className="projects-header"><h3>Here are some projects I've had fun with!</h3></header>
         <ul>
           <li className="project-item">
             <a href="https://github.com/jbkaplan/plum-app" className=""><h4>Plum.</h4></a>

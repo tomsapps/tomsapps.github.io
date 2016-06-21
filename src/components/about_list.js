@@ -25,7 +25,7 @@ class AboutList extends Component {
                 <div className="title">
                   <h4 className="details-link">Projects</h4>
                 </div>
-                <p className="description">Here are some projects I''ve had fun with.</p>
+                <p className="description">Here are some projects I've had fun with.</p>
               </div>
             </div>
           </Link>
@@ -52,7 +52,7 @@ class AboutList extends Component {
               <div className="title">
                 <a className="router-link" href="mailto:&#116;&#111;&#109;&#115;&#111;&#107;&#057;&#055;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><h4 className="details-link">Let''s Connect!</h4></a>
               </div>
-              <p className="description">I''d love to hear from you!</p>
+              <p className="description">I'd love to hear from you!</p>
             </div>
           </div>
         </li>
