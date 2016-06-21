@@ -126,3 +126,7 @@ footer {
 .interests-title {
   padding-bottom: .5em;
 }
+
+.nav-link-pad {
+  padding-right: 8em;
+}

@@ -8,7 +8,7 @@ class Nav extends Component {
         <ul className="nav">
           {document.location.pathname === '/' ? '' : homeLink() }
           <li className="nav-link">
-            <a href="https://github.com/tomsapps" className="pull-xs-right">GitHub</a>
+            <a href="https://github.com/tomsapps" className="pull-xs-right nav-link-pad">GitHub</a>
           </li>
         </ul>
       </nav>

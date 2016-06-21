@@ -50,7 +50,9 @@ class AboutList extends Component {
             <img className="icon" src="../../style/images/Love-Letter.svg" alt="letter"/>
             <div className="list-detail">
               <div className="title">
-                <a className="router-link" href="mailto:&#116;&#111;&#109;&#115;&#111;&#107;&#057;&#055;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><h4 className="details-link">Let''s Connect!</h4></a>
+                <a className="router-link" href="mailto:&#116;&#111;&#109;&#115;&#111;&#107;&#057;&#055;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+                  <h4 className="details-link">Let's Connect!</h4>
+                </a>
               </div>
               <p className="description">I'd love to hear from you!</p>
             </div>
