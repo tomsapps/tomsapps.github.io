@@ -12,7 +12,7 @@ class AboutList extends Component {
               <div className="title">
                 <h4>Concepts</h4>
               </div>
-              <p className="description">I love working in Rails && React!</p>
+              <p className="description">I love working in Rails && React && Redux!</p>
             </div>
           </div>
         </li>

@@ -4,11 +4,14 @@ import { Link } from 'react-router';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar pull-xs-right" >
-        <ul className="nav">
+      <nav className="navbar pull-xs-right " >
+        <ul className="nav nav-link-pad">
           {document.location.pathname === '/' ? '' : homeLink() }
           <li className="nav-link">
-            <a href="https://github.com/tomsapps" className="pull-xs-right nav-link-pad">GitHub</a>
+            <a href="https://registry.jsonresume.org/tomsapps" target="_blank">Resume</a>
+          </li>
+          <li className="nav-link">
+            <a href="https://github.com/tomsapps" target="_blank">GitHub</a>
           </li>
         </ul>
       </nav>
@@ -19,7 +22,7 @@ class Nav extends Component {
 function homeLink() {
   return (
     <li className="nav-link">
-      <Link to="/" className="pull-xs-right">Home</Link>
+      <Link to="/">Home</Link>
     </li>
   );
 }
