@@ -14,7 +14,7 @@ body {
 }
 
 .profile {
-  padding: 100px 40px 0;
+  padding: 40px 40px 0;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -115,10 +115,6 @@ footer {
   padding-bottom: 2em;
 }
 
-.nav-link {
-  padding-left: 12px;
-}
-
 .project-item {
   padding-bottom: 1.5em;
 }
@@ -127,6 +123,24 @@ footer {
   padding-bottom: .5em;
 }
 
-.nav-link-pad {
-  padding-right: 8em;
+nav {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav > div {
+  margin: 5px;
+}
+
+@media (max-width:320px) and (max-width:500px) {
+  body {
+    zoom: 200%;
+  }
+
+  #home {
+    padding: 0;
+  }
 }
