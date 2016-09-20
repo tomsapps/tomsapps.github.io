@@ -144,3 +144,17 @@ nav > div {
     padding: 0;
   }
 }
+
+.languages {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.languages > div > a {
+  font-size: 1.2em;
+}
+
+.languages > div {
+  margin-bottom: 1em;
+}
