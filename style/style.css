@@ -130,3 +130,14 @@ footer {
 .nav-link-pad {
   padding-right: 8em;
 }
+
+@media (max-width:325px) and (max-width:500px) {
+  body {
+    zoom: 200%;
+  }
+
+  .pull-xs-right {
+    float: none;
+    
+  }
+}
