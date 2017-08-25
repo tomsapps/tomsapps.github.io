@@ -1,0 +1,110 @@
+@font-face {
+		font-family: 'Montserrat', sans-serif;
+}
+
+/**** MAIN STYLES ****/
+body {
+	background-color: #e7e9ed;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: #454d5d;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	user-select: none;
+	cursor: default;
+}
+
+header {
+	float: right;
+	position: relative;
+	top: 4px;
+	right: 4px;
+	pointer-events: none;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+footer > a {
+	margin-right: .4em;
+}
+
+.link {
+	text-decoration: none;
+	border-bottom: .25rem solid;
+}
+
+/**** HIGHLIGHT COLORS ****/
+.raise {
+	color: #4ed1aa;
+}
+
+.linkedIn {
+	color: #0077b5;
+}
+
+.resume {
+	color: #FF5D73;
+}
+
+.dbc {
+	color: #19abb5;
+}
+
+.oss {
+	color: #ee3724;
+}
+
+.github {
+	color: #3d454d;
+}
+
+.codepen {
+	color: #0ebeff;
+}
+
+
+/**** MOBLIE ****/
+@media (max-width: 680px) {
+	.content {
+		display: none;
+	}
+
+	.container {
+		width: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 5em;
+	}
+
+	header {
+		position: unset;
+	}
+
+	footer {
+		margin-left: 16px;
+		margin-top: 28px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer > a {
+		margin-bottom: 14px;
+	}
+
+	.github {
+		width: 115px;
+	}
+	.linkedIn {
+		width: 140px;
+	}
+	.resume {
+		width: 130px;
+	}
+}
