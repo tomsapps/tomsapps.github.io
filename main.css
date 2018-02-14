@@ -1,13 +1,14 @@
 @font-face {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'MetricWeb-Bold';
+		src: url(./MetricWeb-Bold.ttf) format("truetype");
 }
 
 /**** MAIN STYLES ****/
 body {
 	background-color: #e7e9ed;
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
+	font-family: 'MetricWeb-Bold';
+	text-rendering: geometricPrecision;
+	font-size: 2.2em;
 	color: #454d5d;
 	margin: 0;
 	padding: 0;
@@ -17,18 +18,27 @@ body {
 	cursor: default;
 }
 
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 header {
 	float: right;
 	position: relative;
-	top: 4px;
-	right: 4px;
+	top: 30px;
+	right: 14px;
 	pointer-events: none;
 }
 
 .container {
-	width: 960px;
+	width: 840px;
 	margin: 0 auto;
-	margin-top: 2em;
+	margin-top: 1.2em;
+}
+
+.content {
+	height: 388px;
 }
 
 footer > a {
@@ -99,12 +109,12 @@ footer > a {
 	}
 
 	.github {
-		width: 115px;
+		width: 102px;
 	}
 	.linkedIn {
-		width: 140px;
+		width: 125px;
 	}
 	.resume {
-		width: 130px;
+		width: 114px;
 	}
 }
