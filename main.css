@@ -1,6 +1,7 @@
 @font-face {
-		font-family: 'MetricWeb-Bold';
-		src: url(./MetricWeb-Bold.ttf) format("truetype");
+	font-family: 'MetricWeb-Bold';
+	src: url(./MetricWeb-Bold.ttf) format("truetype");
+	/* src: url(./AirbnbCereal-Black.ttf) format("truetype"); */
 }
 
 /**** MAIN STYLES ****/
@@ -37,10 +38,6 @@ header {
 	margin-top: 1.2em;
 }
 
-.content {
-	height: 388px;
-}
-
 footer > a {
 	margin-right: .4em;
 }
@@ -48,6 +45,20 @@ footer > a {
 .link {
 	text-decoration: none;
 	border-bottom: .25rem solid;
+}
+
+.past {
+	text-decoration: none;
+	position: relative;
+}
+
+.past::after {
+	border-bottom: 0.25rem solid;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 51%;
 }
 
 /**** HIGHLIGHT COLORS ****/
